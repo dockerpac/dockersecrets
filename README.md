@@ -31,4 +31,3 @@ docker service logs mystack_alpine
 # cleanup
 docker stack rm mystack
 ```
-# dockersecrets
