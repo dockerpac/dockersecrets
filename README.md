@@ -1,5 +1,11 @@
 # Docker secrets
 
+## Build
+
+```sh
+docker-compose build && docker-compose push
+```
+
 ## Locally
 
 Secrets vars are set as env vars in docker-compose.override.yml
