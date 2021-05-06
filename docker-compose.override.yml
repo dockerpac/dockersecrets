@@ -1,0 +1,5 @@
+services:
+  alpine:
+    build: ./
+    environment:
+      SECRET1: "secretdev"

@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  alpine:
+    image: dockerpac/secret:latest
+    environment:
+      CONFIG1: "toto"
+    secrets:
+      - SECRET1
+    deploy:
+      replicas: 1
+secrets:
+  SECRET1:
+    external: true
+    name: SECRET1
